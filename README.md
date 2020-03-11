@@ -6,3 +6,4 @@ This project proposes the hardware design and the firmware of a low-cost air qua
 
 ![Air Quality Dashboard](images/atmo-nodered-3.png)
 
+![Air Quality Polytech Project](images/Projet_Qualite_Air_Grafana_Dashboard.jpg)
