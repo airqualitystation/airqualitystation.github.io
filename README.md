@@ -1,3 +1,8 @@
 # Air Quality Station
 
 This project proposes the hardware design and the firmware of a low-cost air quality station. Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack).
+
+![Air Quality Station v1](images/atmo-station-d.jpg)
+
+![Air Quality Dashboard](images/atmo-nodered-3.png)
+
