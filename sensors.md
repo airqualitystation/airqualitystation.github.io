@@ -13,6 +13,8 @@ Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN pro
 
 ### NetAtmo
 
+### Blueair Aware
+
 ## Boards
 
 ### Breakout Qwiic
