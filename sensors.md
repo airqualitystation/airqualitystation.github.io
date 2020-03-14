@@ -13,7 +13,7 @@ Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN pro
 
 ### NetAtmo
 
-## Components and Boards
+## Boards
 
 ### Breakout Qwiic
 
@@ -41,3 +41,8 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 | ------------- | ---------------- | --------- | --------- | ------------- | ------- | ------------ | -------- |
 | [SparkFun Air Quality Breakout - CCS811](https://www.sparkfun.com/products/14193) | 1 | 3.3V | I2C | VOC | TBC | TBC | TBC |
 | [SparkFun Particle Sensor Breakout - MAX30105](https://www.sparkfun.com/products/14045) | TBC | 5V | I2C | Particles | TBC | TBC | TBC |
+
+## Components
+
+* MAX30105
+* CCS811
