@@ -4,7 +4,7 @@ This project proposes the hardware design and the firmware of a low-cost air qua
 
 ## Version 2020
 
-![Air Quality Polytech Project Station](images/Project_Quality_Air_Station.jpg)
+![Air Quality Polytech Project Station](images/Station_meteo.jpg)
 
 ![Air Quality Polytech Project Grafana](images/Projet_Qualite_Air_Grafana_Dashboard.JPG)
 
