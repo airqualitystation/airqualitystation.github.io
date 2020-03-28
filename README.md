@@ -1,6 +1,8 @@
 # Air Quality Station
 
-This project proposes the hardware design and the firmware of a low-cost air quality station. Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack).
+This project proposes the hardware design and the firmware of a low-cost air quality station. Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack). The firmware is based on [RIOT OS](https://riot-os.org/).
+
+[Github repositories](https://github.com/airqualitystation)
 
 ## Version 2020
 
