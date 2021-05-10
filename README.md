@@ -4,6 +4,11 @@ This project proposes the hardware design and the firmware of a low-cost air qua
 
 [Github repositories](https://github.com/airqualitystation)
 
+## Version 2021
+Comming soon
+
+* Adding [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
+
 ## Version 2020
 
 ![Air Quality Polytech Project Station](images/Station_meteo)
