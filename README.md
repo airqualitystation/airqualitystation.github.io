@@ -5,7 +5,7 @@ This project proposes the hardware design and the firmware of a low-cost air qua
 [Github repositories](https://github.com/airqualitystation)
 
 ## Version 2021
-Comming soon
+Coming soon
 
 * Adding [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
 
@@ -21,3 +21,8 @@ Youtube: https://www.youtube.com/playlist?list=PLF3XltIz6OpR8-TI78mwKeDekHcQkxyB
 ![Air Quality Station v1](images/atmo-station-d.jpg)
 
 ![Air Quality Dashboard](images/atmo-nodered-3.png)
+
+## Partners
+* [Polytech Grenoble, Université Grenoble Alpes](https://www.polytech-grenoble.fr/)
+* [Phelma, Grenoble INP](https://phelma.grenoble-inp.fr/)
+* [ATMO Auvergne-Rhône-Alpes](https://www.atmo-auvergnerhonealpes.fr/)
