@@ -1,6 +1,10 @@
 # Air Quality Station
 
-This project proposes the hardware design and the firmware of a low-cost air quality station. Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack). The main MCU board is the [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html). The firmware is based on [RIOT OS](https://riot-os.org/).
+This project proposes the hardware design and the firmware of a low-cost air quality station.
+Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack).
+The main MCU board is the [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html).
+The firmware is based on [RIOT OS](https://riot-os.org/).
+The IAQ sensors are listed [here](./sensors.md)
 
 [Github repositories](https://github.com/airqualitystation)
 
