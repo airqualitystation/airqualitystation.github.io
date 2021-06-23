@@ -3,7 +3,7 @@
 ## Products
 
 ### MCF88 LoRaWAN endpoints
-
+Connectivity : LoRaWAN
 * [MCF-LW12TER LoRaWAN® indoor environmental sensor](https://www.mcf88.it/prodotto/mcf-lw12ter/)
 * [MCF-LW12TERPM LoRaWAN® outdoor PM and environmental sensor](https://www.mcf88.it/prodotto/mcf-lw12terpm/)
 * [MCF-LW12CO2 LoRaWAN® indoor environmental sensor with VOC, LUX and CO2](https://www.mcf88.it/prodotto/mcf-lw12co2/)
@@ -12,10 +12,12 @@
 Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN protocol. The payload decoder is available [here](https://github.com/CampusIoT/payload-codec/tree/master/src/main/ttn_loraappserver/mcf88).
 
 ### Elsys
+Connectivity : LoRaWAN
 * Elsys ERS CO2
 * Elsys ERS VOC
 
 ### [Nexelec](https://en.nexelec.fr/produits)
+Connectivity : LoRaWAN, Sigfox, NB-IoT, Zigbee
 * Origin (Smoke)
 * Carbon (CO2)
 * Secure (CO)
@@ -26,14 +28,16 @@ Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN pro
 * Atmo (PM1, PM 2.5, PM10, HCHO, CO2, VOCs)
 
 ### AERASGARD
+Connectivity : na
 * [ALQ-CO2-W](https://spluss.de/en/products/air-quality-and-flow/room-co2-and-air-quality-sensor-voc/alq-co2/)
 
 ### NetAtmo
+Connectivity : Wifi
 
-### Adeunis
+### [Adeunis](https://www.adeunis.com/produits/gamme-lpwan-868/)
+Connectivity : LoRaWAN, Sigfox, NB-IoT
 
 ### Blueair Aware
-
 
 ## Boards
 
