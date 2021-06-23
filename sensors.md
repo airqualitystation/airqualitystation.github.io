@@ -2,7 +2,7 @@
 
 ## Products
 
-### MCF88
+### MCF88 LoRaWAN endpoints
 
 * [MCF-LW12TER LoRaWAN® indoor environmental sensor](https://www.mcf88.it/prodotto/mcf-lw12ter/)
 * [MCF-LW12TERPM LoRaWAN® outdoor PM and environmental sensor](https://www.mcf88.it/prodotto/mcf-lw12terpm/)
@@ -11,9 +11,29 @@
 
 Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN protocol. The payload decoder is available [here](https://github.com/CampusIoT/payload-codec/tree/master/src/main/ttn_loraappserver/mcf88).
 
+### Elsys
+* Elsys ERS CO2
+* Elsys ERS VOC
+
+### [Nexelec](https://en.nexelec.fr/produits)
+* Origin (Smoke)
+* Carbon (CO2)
+* Secure (CO)
+* Aero (CO2, VOC)
+* PMi (PM1, PM 2.5, PM10, VOC)
+* PMo (PM1, PM 2.5, PM10)
+* Sense (PM1, PM 2.5, PM10, CO2, VOC)
+* Atmo (PM1, PM 2.5, PM10, HCHO, CO2, VOCs)
+
+### AERASGARD
+* [ALQ-CO2-W](https://spluss.de/en/products/air-quality-and-flow/room-co2-and-air-quality-sensor-voc/alq-co2/)
+
 ### NetAtmo
 
+### Adeunis
+
 ### Blueair Aware
+
 
 ## Boards
 
@@ -22,12 +42,16 @@ Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN pro
 | Board         | Samples @ Fablab | Voltage   | Interface | Sensors | OS Support | Fritzing | Demo     |
 | ------------- | ---------------- | --------- | ----------| ------- | ---------- | -------- | -------- |
 | [SparkFun Environmental Combo Breakout - CCS811/BME280](https://www.sparkfun.com/products/14348) | 0 | TBC | I2C | CCS811, BME280 | Riot OS: TBC, MBed: TBC, Stm32duino: TBC | TBC | TBC |
+| [SparkFun Air Quality Sensor - SGP30 (Qwiic)](https://www.sparkfun.com/products/16531) | 0 | TBC | I2C | SGP30 | Riot OS: TBC, MBed: TBC, Stm32duino: TBC | TBC | TBC |
+| [Adafruit SGP30 Air Quality Sensor Breakout - VOC and eCO2 - STEMMA QT / Qwiic](https://www.adafruit.com/product/3709) | 0 | TBC | I2C | SGP30 | Riot OS: TBC, MBed: TBC, Stm32duino: TBC | TBC | TBC |
+| [Adafruit SGP40 Air Quality Sensor Breakout - VOC Index - STEMMA QT / Qwiic](https://www.adafruit.com/product/4829) | 0 | TBC | I2C | SGP40 | Riot OS: TBC, MBed: TBC, Stm32duino: TBC | TBC | TBC |
+| [Adafruit SCD-30 - NDIR CO2 Temperature and Humidity Sensor - STEMMA QT / Qwiic](https://www.adafruit.com/product/4867) | 0 | TBC | I2C | SCD-30 | Riot OS: TBC, MBed: TBC, Stm32duino: TBC | TBC | TBC |
 
 Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-pin JST connectors to quickly interface development boards with sensors, LCDs, relays and more.
 
 ### Seeed Studio Grove sensors
 
-[Manufacturer full list](https://www.seeedstudio.com/category/Sensor-for-Grove-c-24.html)
+[Gas sensors full list](https://wiki.seeedstudio.com/Sensor_gas/)
 
 | Sensors       | Samples @ Fablab | Voltage   | Sensors       | OS support | Fritzing     | Demo     |
 | ------------- | ---------------- | --------- | ------------- | ---------- | ------------ | -------- |
@@ -36,6 +60,7 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 | [Gas Sensor (MQ3)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ3/) Alcohol Vapor |  TBC | 5V | MQ3 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ5)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ5/) LPG, Natural Gas, Town Gas |  TBC | 5V | MQ5 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ9)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ9/) Carbon Monoxide, Coal Gas, Liquefied Gas |  TBC | 5V | MQ9 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
+| [Gas Sensor (VOC and eCO2) with SGP30 air quality sensor](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) VOC and eCO2 |  TBC | 5V | SGP30 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 
 ### Others
 
@@ -43,8 +68,12 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 | ------------- | ---------------- | --------- | --------- | ------------- | ------- | ------------ | -------- |
 | [SparkFun Air Quality Breakout - CCS811](https://www.sparkfun.com/products/14193) | 1 | 3.3V | I2C | VOC | TBC | TBC | TBC |
 | [SparkFun Particle Sensor Breakout - MAX30105](https://www.sparkfun.com/products/14045) | TBC | 5V | I2C | Particles | TBC | TBC | TBC |
+| [Dust Sensor Module Kit - GP2Y1014AU0F with Cable](https://www.adafruit.com/product/4649) | TBC | 5V | I2C | Dust | TBC | TBC | TBC |
+
 
 ## Components
 
 * [MAX30105](https://cdn.sparkfun.com/assets/learn_tutorials/5/7/7/MAX30105_3.pdf)
 * [CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf)
+* [Sensirion Multi-Pixel Gas Sensor SGP: SGPC3, SGP30, SGP40](https://www.sensirion.com/en/environmental-sensors/gas-sensors/)
+* [ST Microelectronics](??)
