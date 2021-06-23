@@ -27,6 +27,14 @@ Connectivity : LoRaWAN, Sigfox, NB-IoT, Zigbee
 * Sense (PM1, PM 2.5, PM10, CO2, VOC)
 * Atmo (PM1, PM 2.5, PM10, HCHO, CO2, VOCs)
 
+### NKE Watteco
+Connectivity : LoRaWAN
+* [VAQA’O+](https://www.nke-watteco.fr/produit/capteur-vaqao-plus-lorawan/) (CO2, VOC)
+
+### Ethera Labs
+Connectivity : LoRaWAN, LTE, ModBus
+* [NEMo XT](https://www.ethera-labs.com/produit/nemo-xt-station-de-monitoring-de-la-qualite-de-lair-interieur/) (CO2, COVL, formaldéhyde. Une connexion IOT LoRa est configurée par défaut. En option, il est possible d’ajouter des + additional sensors for PM 1-2,5-10, NO2, O3)
+
 ### AERASGARD
 Connectivity : na
 * [ALQ-CO2-W](https://spluss.de/en/products/air-quality-and-flow/room-co2-and-air-quality-sensor-voc/alq-co2/)
