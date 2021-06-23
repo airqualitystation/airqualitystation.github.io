@@ -6,8 +6,9 @@ This project proposes the hardware design and the firmware of a low-cost air qua
 
 ## Version 2021
 Coming soon
-
-* Adding [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
+* MCU: STM32WL55
+* Sensor: [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
+* Firmware : MicroPython (on RIOT OS)
 
 ## Version 2020
 
