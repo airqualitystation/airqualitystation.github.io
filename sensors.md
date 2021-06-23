@@ -33,7 +33,7 @@ Connectivity : LoRaWAN
 
 ### Ethera Labs
 Connectivity : LoRaWAN, LTE, ModBus
-* [NEMo XT](https://www.ethera-labs.com/produit/nemo-xt-station-de-monitoring-de-la-qualite-de-lair-interieur/) (CO2, COVL, formaldéhyde. Une connexion IOT LoRa est configurée par défaut. En option, il est possible d’ajouter des + additional sensors for PM 1-2,5-10, NO2, O3)
+* [NEMo XT](https://www.ethera-labs.com/produit/nemo-xt-station-de-monitoring-de-la-qualite-de-lair-interieur/) (CO2, COVL, formaldehyd + additional sensors for PM 1-2,5-10, NO2, O3)
 
 ### AERASGARD
 Connectivity : na
