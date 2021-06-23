@@ -13,8 +13,8 @@ Note: MCF88 endpoints transmit air quality measurements by using the LoRaWAN pro
 
 ### Elsys
 Connectivity : LoRaWAN
-* Elsys ERS CO2
-* Elsys ERS VOC
+* [Elsys ERS CO2](https://www.elsys.se/en/ers-co2/) (CO2)
+* [Elsys ERS VOC](https://www.elsys.se/en/ers-voc/) (VOC)
 
 ### [Nexelec](https://en.nexelec.fr/produits)
 Connectivity : LoRaWAN, Sigfox, NB-IoT, Zigbee
