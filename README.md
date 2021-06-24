@@ -10,7 +10,7 @@ The IAQ sensors are listed [here](./sensors.md)
 
 ## Version 2021
 Coming soon
-* MCU: STM32WL55
+* MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/))
 * Sensor: [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
 * Firmware : MicroPython (on RIOT OS)
 
