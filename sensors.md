@@ -78,7 +78,7 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 
 | Board         | Samples @ Fablab | Voltage   | Interfaces | Sensors       | OS support | Fritzing     | Demo     |
 | ------------- | ---------------- | --------- | --------- | ------------- | ------- | ------------ | -------- |
-| [SparkFun Air Quality Breakout - CCS811](https://www.sparkfun.com/products/14193) | 1 | 3.3V | I2C | VOC | TBC | TBC | TBC |
+| [SparkFun Air Quality Breakout - CCS811](https://www.sparkfun.com/products/14193) | 1 | 3.3V | I2C | VOC | [RIOT](https://github.com/RIOT-OS/RIOT/tree/master/drivers/ccs811) | TBC | TBC |
 | [SparkFun Particle Sensor Breakout - MAX30105](https://www.sparkfun.com/products/14045) | TBC | 5V | I2C | Particles | TBC | TBC | TBC |
 | [Dust Sensor Module Kit - GP2Y1014AU0F with Cable](https://www.adafruit.com/product/4649) | TBC | 5V | I2C | Dust | TBC | TBC | TBC |
 
@@ -86,6 +86,6 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 ## Components
 
 * [MAX30105](https://cdn.sparkfun.com/assets/learn_tutorials/5/7/7/MAX30105_3.pdf)
-* [CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf)
+* [CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf) : Drivers: [RIOT](https://github.com/RIOT-OS/RIOT/tree/master/drivers/ccs811)
 * [Sensirion Multi-Pixel Gas Sensor SGP: SGPC3, SGP30, SGP40](https://www.sensirion.com/en/environmental-sensors/gas-sensors/)
 * [ST Microelectronics](??)
