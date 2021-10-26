@@ -89,3 +89,4 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 * [CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf) : Drivers: [RIOT](https://github.com/RIOT-OS/RIOT/tree/master/drivers/ccs811)
 * [Sensirion Multi-Pixel Gas Sensor SGP: SGPC3, SGP30, SGP40](https://www.sensirion.com/en/environmental-sensors/gas-sensors/)
 * [ST Microelectronics](??)
+* [Amphenol Telaire SM-PWM-01C](https://www.amphenol.com/node/4647) SMART Dust Sensor
