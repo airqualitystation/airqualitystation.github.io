@@ -26,6 +26,9 @@ Coming soon
 
 ## Version 2020
 
+* MCU: [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html).
+* Firmware : C on RIOT OS
+
 ![Air Quality Polytech Project Station](images/Station_meteo)
 
 ![Air Quality Polytech Project Grafana](images/Projet_Qualite_Air_Grafana_Dashboard.JPG)
@@ -34,8 +37,8 @@ Youtube: https://www.youtube.com/playlist?list=PLF3XltIz6OpR8-TI78mwKeDekHcQkxyB
 
 ## Version 2019
 
-* MCU: [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html).
-* Firmware : C on RIOT OS
+* MCU: [P-NUCLEO-LRWAN1](https://www.st.com/en/evaluation-tools/p-nucleo-lrwan1.html).
+* Firmware : MBed
 
 ![Air Quality Station v1](images/atmo-station-d.jpg)
 ![Air Quality Dashboard](images/atmo-nodered-3.png)
