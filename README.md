@@ -16,6 +16,7 @@ Coming soon
   * Temperature, Humidity, Pressure
   * [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
   * [SGP30](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) air quality sensor.
+  * [Geiger counter with UART](https://www.sparkfun.com/products/retired/10742)
   * Others to defined
 * Firmware : C or MicroPython on RIOT OS
 
