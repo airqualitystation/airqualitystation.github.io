@@ -3,7 +3,7 @@
 ![Fire at Grenoble 20-11-2021](images/FEpQweSWUAI8UEH.jpg)
 
 This project proposes the hardware design and the firmware of a low-cost air quality station for citizens.
-Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
+Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
 The firmware is based on [RIOT OS](https://riot-os.org/).
 The IAQ sensors are listed [here](./sensors.md)
 
