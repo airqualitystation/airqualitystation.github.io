@@ -81,7 +81,7 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 | [SparkFun Air Quality Breakout - CCS811](https://www.sparkfun.com/products/14193) | 1 | 3.3V | I2C | VOC | [RIOT](https://github.com/RIOT-OS/RIOT/tree/master/drivers/ccs811) | TBC | TBC |
 | [SparkFun Particle Sensor Breakout - MAX30105](https://www.sparkfun.com/products/14045) | TBC | 5V | I2C | Particles | TBC | TBC | TBC |
 | [Dust Sensor Module Kit - GP2Y1014AU0F with Cable](https://www.adafruit.com/product/4649) | TBC | 5V | I2C | Dust | TBC | TBC | TBC |
-
+| [SparkFun Geiger Counter](https://easyeda.com/SparkFun/SparkFun_Geiger_Counter-djF0K64qo) | 1 | 5V | UART | Radiation | [Python](https://air.imag.fr/index.php/Geiger_counter), [Processing](https://air.imag.fr/index.php/Geiger_counter) | TBC | TBC |
 
 ## Components
 
