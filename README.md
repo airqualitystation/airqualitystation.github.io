@@ -11,14 +11,18 @@ The IAQ sensors are listed [here](./sensors.md)
 
 ## Version 2022
 Coming soon
-* MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/))
+* MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
 * Sensors:
   * Temperature, Humidity, Pressure
   * [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
-  * [SGP30](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) air quality sensor.
+  * [Grove CO2 SGP30](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) .
+  * [Grove CO2 SDC41](https://wiki.seeedstudio.com/Grove-CO2-Temperature-Humidity-Sensor-SCD41/) 
+  * [Grove - Gas Sensor V2(Multichannel)](https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/) for detecting CO, NO2, C2H5CH, VOC  with [GM-102B, GM-302B, GM-502B and GM-702B sensors](https://www.cnwinsen.com/products/MEMS-sensor)
   * [Geiger counter with UART](https://www.sparkfun.com/products/retired/10742)
   * Others to defined
-* Firmware : C or MicroPython on RIOT OS
+* Firmware : C or MicroPython on Arduino or RIOT OS
+
+![Wio Terminal SCD41](https://raw.githubusercontent.com/CampusIoT/tutorial/master/wioterminal/examples/GroveCO2TemperatureHumiditySensorSCD41/GroveCO2TemperatureHumiditySensorSCD41.jpg)
 
 ## Version 2021
 * MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/))
