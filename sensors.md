@@ -67,12 +67,16 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 
 | Sensors       | Samples @ Fablab | Voltage   | Sensors       | OS support | Fritzing     | Demo     |
 | ------------- | ---------------- | --------- | ------------- | ---------- | ------------ | -------- |
+| [Grove CO2 SDC41](https://wiki.seeedstudio.com/Grove-CO2-Temperature-Humidity-Sensor-SCD41/) |  1 | 2.4V~5V | SCD41 (CO2, TH) | RiotOS: TBD, Stm32duino: TBD | TBD | [Wio](https://github.com/CampusIoT/tutorial/tree/master/wioterminal/examples/GroveCO2TemperatureHumiditySensorSCD41) |
+| [Grove - Gas Sensor V2(Multichannel)](https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/) |  1 | 2.4V~5V | CO, NO2, C2H5CH, VOC  ... with GM-102B, GM-302B, GM-502B et GM-702B. | RiotOS: TBD, Stm32duino: TBD | TBD | [Wio](https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/) |
 | [Dust Sensor](http://wiki.seeedstudio.com/Grove-Dust_Sensor/) |  TBC | 5V | Ultrasonic | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ2)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ2/) Combustible Gas, Smoke |  TBC | 5V | MQ2 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ3)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ3/) Alcohol Vapor |  TBC | 5V | MQ3 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ5)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ5/) LPG, Natural Gas, Town Gas |  TBC | 5V | MQ5 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (MQ9)](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ9/) Carbon Monoxide, Coal Gas, Liquefied Gas |  TBC | 5V | MQ9 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
 | [Gas Sensor (VOC and eCO2) with SGP30 air quality sensor](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) VOC and eCO2 |  TBC | 5V | SGP30 | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
+| [Grove - High Precision Barometric Pressure Sensor DPS310](https://wiki.seeedstudio.com/Grove-High-Precision-Barometric-Pressure-Sensor-DPS310/) |  TBC | 3.3V / 5V | Infineon DPS310 (Barometer) | RiotOS: TBD, Stm32duino: TBD | TBD | TBD |
+
 
 ### Others
 
