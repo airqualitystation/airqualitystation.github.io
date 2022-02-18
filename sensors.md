@@ -94,3 +94,4 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 * [Sensirion Multi-Pixel Gas Sensor SGP: SGPC3, SGP30, SGP40](https://www.sensirion.com/en/environmental-sensors/gas-sensors/)
 * [ST Microelectronics](??)
 * [Amphenol Telaire SM-PWM-01C](https://www.amphenol.com/node/4647) SMART Dust Sensor
+* [Plantower PMS7003 PM Sensor](http://www.plantower.com/en/content/?110.html) : [@Gotronic](https://www.gotronic.fr/art-capteur-de-qualite-de-l-air-pms7003-30623.htm)
