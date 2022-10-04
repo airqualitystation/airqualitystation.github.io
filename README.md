@@ -10,8 +10,17 @@ The IAQ sensors are listed [here](./sensors.md)
 [Github repositories](https://github.com/airqualitystation)
 
 ## Version 2022
-Coming soon
-* MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
+
+### LoRa E5 Mini with BME280 and PMS7003
+* Board: LoRa E5 Mini
+* Sensors:
+  * BME280: Temperature, Humidity, Pressure
+  * PMS7003: PM 1, 2.5, 10
+* [Firmware : RIOT OS](https://github.com/airqualitystation/firmware_for_bmx280_pms7003)
+* [Decoder](https://github.com/airqualitystation/firmware_for_bmx280_pms7003/blob/main/codec/decoder.js)
+
+### Wio Terminal
+* MCU: [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
 * Sensors:
   * Temperature, Humidity, Pressure
   * [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
@@ -20,7 +29,7 @@ Coming soon
   * [Grove - Gas Sensor V2(Multichannel)](https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/) for detecting CO, NO2, C2H5CH, VOC  with [GM-102B, GM-302B, GM-502B and GM-702B sensors](https://www.cnwinsen.com/products/MEMS-sensor)
   * [Geiger counter with UART](https://www.sparkfun.com/products/retired/10742)
   * Others to defined
-* Firmware : C or MicroPython on Arduino or RIOT OS
+* Firmware : Arduino or RIOT OS
 
 ![Wio Terminal SCD41](https://raw.githubusercontent.com/CampusIoT/tutorial/master/wioterminal/examples/GroveCO2TemperatureHumiditySensorSCD41/GroveCO2TemperatureHumiditySensorSCD41.jpg)
 
