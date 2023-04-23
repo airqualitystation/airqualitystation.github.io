@@ -19,6 +19,8 @@ The IAQ sensors are listed [here](./sensors.md)
 * [Firmware : RIOT OS](https://github.com/airqualitystation/firmware_for_bmx280_pms7003)
 * [Decoder](https://github.com/airqualitystation/firmware_for_bmx280_pms7003/blob/main/codec/decoder.js)
 
+![LoRa E5 Mini with BME280 and PMS7003](https://raw.githubusercontent.com/airqualitystation/firmware_for_bmx280_pms7003/main/images/aq_endpoint-02.jpg)
+
 ### Wio Terminal
 * MCU: [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
 * Sensors:
