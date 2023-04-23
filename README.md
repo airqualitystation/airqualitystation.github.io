@@ -1,6 +1,7 @@
 # Air Quality Station
 
 ![Fire at Grenoble 20-11-2021](images/FEpQweSWUAI8UEH.jpg)
+Credit: [@villeofficiel](https://twitter.com/villeofficiel/status/1462069831444967427)
 
 This project proposes the hardware design and the firmware of various low-cost and repairable airquality stations for citizens.
 Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
