@@ -1,20 +1,50 @@
 # Air Quality Station
 
-This project proposes the hardware design and the firmware of a low-cost air quality station.
-Air quality measurements are transmitted over a LoRaWAN network (TTN or Chirpstack).
-The main MCU board is the [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html).
+![Fire at Grenoble 20-11-2021](images/FEpQweSWUAI8UEH.jpg)
+Credit: [@villeofficiel](https://twitter.com/villeofficiel/status/1462069831444967427)
+
+This project proposes the hardware design and the firmware of various low-cost and repairable airquality stations for citizens.
+Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
 The firmware is based on [RIOT OS](https://riot-os.org/).
 The IAQ sensors are listed [here](./sensors.md)
 
 [Github repositories](https://github.com/airqualitystation)
 
+## Version 2022
+
+### LoRa E5 Mini with BME280 and PMS7003
+* Board: LoRa E5 Mini
+* Sensors:
+  * BME280: Temperature, Humidity, Pressure
+  * PMS7003: PM 1, 2.5, 10
+* [Firmware : RIOT OS](https://github.com/airqualitystation/firmware_for_bmx280_pms7003)
+* [Decoder](https://github.com/airqualitystation/firmware_for_bmx280_pms7003/blob/main/codec/decoder.js)
+
+![LoRa E5 Mini with BME280 and PMS7003](https://raw.githubusercontent.com/airqualitystation/firmware_for_bmx280_pms7003/main/images/aq_endpoint-02.jpg)
+
+### Wio Terminal
+* MCU: [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
+* Sensors:
+  * Temperature, Humidity, Pressure
+  * [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
+  * [Grove CO2 SGP30](https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/) .
+  * [Grove CO2 SDC41](https://wiki.seeedstudio.com/Grove-CO2-Temperature-Humidity-Sensor-SCD41/) 
+  * [Grove - Gas Sensor V2(Multichannel)](https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/) for detecting CO, NO2, C2H5CH, VOC  with [GM-102B, GM-302B, GM-502B and GM-702B sensors](https://www.cnwinsen.com/products/MEMS-sensor)
+  * [Geiger counter with UART](https://www.sparkfun.com/products/retired/10742)
+  * Others to defined
+* Firmware : Arduino or RIOT OS
+
+![Wio Terminal SCD41](https://raw.githubusercontent.com/CampusIoT/tutorial/master/wioterminal/examples/GroveCO2TemperatureHumiditySensorSCD41/GroveCO2TemperatureHumiditySensorSCD41.jpg)
+
 ## Version 2021
-Coming soon
 * MCU: STM32WL55 ([Nucleo](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html), [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/))
 * Sensor: [CCS811](https://github.com/airqualitystation/firmware/blob/master/ccs811.md) air quality sensor.
-* Firmware : MicroPython (on RIOT OS)
+* Firmware : C on RIOT OS
 
 ## Version 2020
+
+* MCU: [STM32 Nucleo B-L072Z-LRWAN1](https://www.st.com/en/evaluation-tools/b-l072z-lrwan1.html).
+* Firmware : C on RIOT OS
 
 ![Air Quality Polytech Project Station](images/Station_meteo)
 
@@ -23,8 +53,11 @@ Coming soon
 Youtube: https://www.youtube.com/playlist?list=PLF3XltIz6OpR8-TI78mwKeDekHcQkxyBV
 
 ## Version 2019
-![Air Quality Station v1](images/atmo-station-d.jpg)
 
+* MCU: [P-NUCLEO-LRWAN1](https://www.st.com/en/evaluation-tools/p-nucleo-lrwan1.html).
+* Firmware : MBed
+
+![Air Quality Station v1](images/atmo-station-d.jpg)
 ![Air Quality Dashboard](images/atmo-nodered-3.png)
 
 ## Partners
