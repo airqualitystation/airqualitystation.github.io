@@ -39,6 +39,10 @@ Connectivity : LoRaWAN, LTE, ModBus
 Connectivity : na
 * [ALQ-CO2-W](https://spluss.de/en/products/air-quality-and-flow/room-co2-and-air-quality-sensor-voc/alq-co2/)
 
+### ATIM
+Connectivity: LoRaWAN, Sigfox
+* [CO2 and VOC](https://www.atim.com/en/produits/air-quality-sensor-co2-voc-temperature-humidity-lpwan/)
+
 ### NetAtmo
 Connectivity : Wifi
 
