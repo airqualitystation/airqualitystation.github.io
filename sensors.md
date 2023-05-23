@@ -93,6 +93,7 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 * [MAX30105](https://cdn.sparkfun.com/assets/learn_tutorials/5/7/7/MAX30105_3.pdf)
 * [CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf) : Drivers: [RIOT](https://github.com/RIOT-OS/RIOT/tree/master/drivers/ccs811)
 * [Sensirion Multi-Pixel Gas Sensor SGP: SGPC3, SGP30, SGP40](https://www.sensirion.com/en/environmental-sensors/gas-sensors/)
+* [Sensirion PM Sensor SPS30](https://sensirion.com/products/catalog/SPS30/) [Ardiuno driver](https://github.com/Sensirion/arduino-sps)
 * [ST Microelectronics](??)
 * [Amphenol Telaire SM-PWM-01C](https://www.amphenol.com/node/4647) SMART Dust Sensor
 * [Plantower PMS7003 PM Sensor](http://www.plantower.com/en/content/?110.html) : [@Gotronic](https://www.gotronic.fr/art-capteur-de-qualite-de-l-air-pms7003-30623.htm)
