@@ -10,6 +10,16 @@ The IAQ sensors are listed [here](./sensors.md)
 
 [Github repositories](https://github.com/airqualitystation)
 
+## Version 2024 (WIP)
+
+### ESP32 DevKit with BME280 and Sensirion SPS30
+* Board: ESP32 DEvKit on [TinyGS_2G4](https://github.com/thingsat/tinygs_2g4station)
+* Sensors:
+  * [MIKROE-1978 (BME280)](https://www.mikroe.com/weather-click) on Mikrobus Slot 1: Temperature, Humidity, Pressure
+  * [Sensirion PM Sensor SPS30](https://sensirion.com/products/catalog/SPS30/) on Grove I2C connector: PM 1, 2.5, 10
+* Connectivity: Wifi, BLE, LoRaWAN (Mikrobus RN2483 on Mikrobus Slot 0)
+* Firmware : [RIOT OS](https://doc.riot-os.org/group__boards__esp32__wroom-32.html)
+
 ## Version 2022
 
 ### LoRa E5 Mini with BME280 and PMS7003
