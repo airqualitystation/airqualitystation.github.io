@@ -13,12 +13,14 @@ The IAQ sensors are listed [here](./sensors.md)
 ## Version 2024 (WIP)
 
 ### ESP32 DevKit with BME280 and Sensirion SPS30
-* Board: ESP32 DEvKit on [TinyGS_2G4](https://github.com/thingsat/tinygs_2g4station)
+* Board: ESP32 DevKit on [TinyGS_2G4](https://github.com/thingsat/tinygs_2g4station)
 * Sensors:
   * [MIKROE-1978 (BME280)](https://www.mikroe.com/weather-click) on Mikrobus Slot 1: Temperature, Humidity, Pressure
-  * [Sensirion PM Sensor SPS30](https://sensirion.com/products/catalog/SPS30/) on Grove I2C connector: PM 1, 2.5, 10
+  * [Sensirion SPS30 PM Sensor](https://sensirion.com/products/catalog/SPS30/) on Grove I2C connector: PM 1, 2.5, 10
 * Connectivity: Wifi, BLE, LoRaWAN (Mikrobus RN2483 on Mikrobus Slot 0)
 * Firmware : [RIOT OS](https://doc.riot-os.org/group__boards__esp32__wroom-32.html)
+
+![ESP32 DevKit + RN2483](https://raw.githubusercontent.com/thingsat/tinygs_2g4station/main/images/tinygs2G4_mikrobus_rn2483.jpg)
 
 ## Version 2022
 
