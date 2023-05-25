@@ -1,3 +1,5 @@
 # Air Quality Station :: Contributors
 
-Didier DONSEZ
+* Didier DONSEZ
+* Marie-Laure AIX
+* Germain LEMASSON
