@@ -110,3 +110,4 @@ Note: [SparkFun's Qwiic Connect System](https://www.sparkfun.com/qwiic) uses 4-p
 * [ST Microelectronics](??)
 * [Amphenol Telaire SM-PWM-01C](https://www.amphenol.com/node/4647) SMART Dust Sensor
 * [Plantower PMS7003 PM Sensor](http://www.plantower.com/en/content/?110.html) : [@Gotronic](https://www.gotronic.fr/art-capteur-de-qualite-de-l-air-pms7003-30623.htm)
+* [Figaro TGS5141 CO sensor](https://www.figarosensor.com/product/feature/tgs5141.html)
