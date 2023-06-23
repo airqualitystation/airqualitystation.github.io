@@ -35,6 +35,7 @@ The IAQ sensors are listed [here](./sensors.md)
 
 ![LoRa E5 Mini with BME280 and PMS7003](https://raw.githubusercontent.com/airqualitystation/firmware_for_bmx280_pms7003/main/images/aq_endpoint-02.jpg)
 ![Dashboard](images/aq_station_lora_e5_dashboard.png)
+
 ### Wio Terminal
 * MCU: [Seeedstudio](https://wiki.seeedstudio.com/LoRa_E5_Dev_Board/)), [Wio Terminal](https://github.com/CampusIoT/tutorial/tree/master/wioterminal)
 * Sensors:
@@ -73,7 +74,9 @@ Youtube: https://www.youtube.com/playlist?list=PLF3XltIz6OpR8-TI78mwKeDekHcQkxyB
 ![Air Quality Station v1](images/atmo-station-d.jpg)
 ![Air Quality Dashboard](images/atmo-nodered-3.png)
 
-## Partners
+## Partners & Supporters
+* [Labex Persyval Labs, Université Grenoble Alpes](https://persyval-lab.org/)
 * [Polytech Grenoble, Université Grenoble Alpes](https://www.polytech-grenoble.fr/)
+* [Fablab MaSTIC, Université Grenoble Alpes](https://fabmstic.imag.fr/)
 * [Phelma, Grenoble INP](https://phelma.grenoble-inp.fr/)
 * [ATMO Auvergne-Rhône-Alpes](https://www.atmo-auvergnerhonealpes.fr/)
