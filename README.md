@@ -22,10 +22,20 @@ The IAQ sensors are listed [here](./sensors.md)
 
 ![ESP32 DevKit + RN2483](https://raw.githubusercontent.com/thingsat/tinygs_2g4station/main/images/tinygs2G4_mikrobus_rn2483.jpg)
 
+### RAK3172 with BME280 and Sensirion SPS30
+* Board: [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172)
+* Sensors:
+  * [BME280](https://www.mouser.fr/ProductDetail/Bosch-Sensortec/BME280) on Temperature, Humidity, Pressure
+  * Removable [Sensirion SPS30 PM Sensor](https://sensirion.com/products/catalog/SPS30/) on I2C connector: PM 1, 2.5, 10
+  * Connectors: UART, GPIO, I2C, Tag-Connect
+* Connectivity: LoRaWAN, Kineis
+* Firmware : [RIOT OS](https://github.com/RIOT-OS/RIOT/tree/master/boards/nucleo-wl55jc), [STM32CubeIDE](https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Low-Level-Development/#rak3172-on-stm32cubeide-with-stm32wl-sdk-v1-2-0)
+
+
 ## Version 2022
 
 ### LoRa E5 Mini with BME280 and PMS7003
-* Board: LoRa E5 Mini
+* Board: LoRa E5 Mini (STM32WL55J1)
 * Sensors:
   * BME280: Temperature, Humidity, Pressure
   * PMS7003: PM 1, 2.5, 10
