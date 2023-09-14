@@ -90,3 +90,7 @@ Youtube: https://www.youtube.com/playlist?list=PLF3XltIz6OpR8-TI78mwKeDekHcQkxyB
 * [Fablab MaSTIC, Université Grenoble Alpes](https://fabmstic.imag.fr/)
 * [Phelma, Grenoble INP](https://phelma.grenoble-inp.fr/)
 * [ATMO Auvergne-Rhône-Alpes](https://www.atmo-auvergnerhonealpes.fr/)
+
+## Misc
+* [AQ Poster (in french)](https://www.ecologie.gouv.fr/sites/default/files/15104-2_expo-QA_10-panneaux_A4_HD.pdf)
+
