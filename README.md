@@ -18,6 +18,8 @@ The IAQ sensors are listed [here](./sensors.md)
   * BME280: Temperature, Humidity, Pressure
   * PMS7003: PM 1, 2.5, 10
 
+[Project (HW+SW)](https://github.com/airqualitystation/flipper_zero/blob/main/README.md)
+
 ### ESP32 DevKit with BME280 and Sensirion SPS30
 * Board: ESP32 DevKit on [TinyGS_2G4](https://github.com/thingsat/tinygs_2g4station)
 * Sensors:
