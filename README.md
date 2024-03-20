@@ -30,15 +30,18 @@ The IAQ sensors are listed [here](./sensors.md)
 
 ![ESP32 DevKit + RN2483](https://raw.githubusercontent.com/thingsat/tinygs_2g4station/main/images/tinygs2G4_mikrobus_rn2483.jpg)
 
-### RAK3172 with BME280 and PMS7003
-* Board: [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172)
+### RAK3172 with BME680 and PMS7003
+* Board: [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172) : MCU [STM32WLE5](https://www.st.com/en/microcontrollers-microprocessors/stm32wlex.html)
 * Sensors:
-  * [BME280](https://www.mouser.fr/ProductDetail/Bosch-Sensortec/BME280) on Temperature, Humidity, Pressure
-  * PMS7003: PM 1, 2.5, 10
-  * Connectors: UART, GPIO, I2C, Tag-Connect
-* Connectivity: LoRaWAN, Kineis
+  * [BME680](https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/) : Temperature, Humidity, Pressure
+  * [PMS7003](https://www.plantower.com/en/products_33/76.html): PM 1, 2.5, 10 (2x10 2mm header)
+  * [LIS2DH12](https://www.st.com/en/mems-and-sensors/lis2dh12.html) : MEMS digital output motion sensor: ultra-low-power high-performance 3-axis "femto" accelerometer
+  * Connectors: UART, GPIO, I2C
+* Power: MPPT for LiPo battery and solar panel (coming soon)
+* Connectivity: LoRaWAN, [LoRa Mesh](https://meshtastic.org/) (coming soon)
 * Firmware : [RIOT OS](https://github.com/RIOT-OS/RIOT/tree/master/boards/nucleo-wl55jc), [STM32CubeIDE](https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Low-Level-Development/#rak3172-on-stm32cubeide-with-stm32wl-sdk-v1-2-0)
 
+![PCB](images/ih2m-rak-top.png)
 
 ## Version 2022
 
