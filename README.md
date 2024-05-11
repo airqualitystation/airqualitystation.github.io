@@ -52,7 +52,7 @@ The IAQ sensors are listed [here](./sensors.md)
   * PMS7003: PM 1, 2.5, 10
 * [Firmware : RIOT OS](https://github.com/airqualitystation/firmware_for_bmx280_pms7003)
 * [Decoder](https://github.com/airqualitystation/firmware_for_bmx280_pms7003/blob/main/codec/decoder.js)
-* [Poster](presentations/poster_uspn_mlaix.pdf) [Paper](https://www.sciencedirect.com/science/article/pii/S0048969723026840?dgcid=author)
+* [Poster](presentations/poster_uspn_mlaix.pdf) [Paper](https://www.sciencedirect.com/science/article/pii/S0048969723026840?dgcid=author) [PhD Thesis (in french)](https://theses.fr/s245973)
 
 ![LoRa E5 Mini with BME280 and PMS7003](https://raw.githubusercontent.com/airqualitystation/firmware_for_bmx280_pms7003/main/images/aq_endpoint-02.jpg)
 ![Dashboard](images/aq_station_lora_e5_dashboard.png)
