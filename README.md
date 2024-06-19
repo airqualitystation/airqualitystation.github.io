@@ -17,6 +17,7 @@ The IAQ sensors are listed [here](./sensors.md)
 * Sensors:
   * BME280: Temperature, Humidity, Pressure
   * PMS7003: PM 1, 2.5, 10
+* FAP: https://lab.flipper.net/apps/airmon
 
 [Project (HW+SW)](https://github.com/airqualitystation/flipper_zero/blob/main/README.md)
 
