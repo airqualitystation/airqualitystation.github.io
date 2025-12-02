@@ -3,12 +3,29 @@
 ![Fire at Grenoble 20-11-2021](images/FEpQweSWUAI8UEH.jpg)
 Credit: [@villeofficiel](https://twitter.com/villeofficiel/status/1462069831444967427)
 
+Air quality remains a global concern despite local improvements. Air pollution is one of the greatest health risks, affecting almost every organ in the body. The impacts are particularly severe for children, the elderly, and populations exposed over long periods. It is responsible for approximately 7 million premature deaths per year worldwide (WHO). This is more than malaria, HIV, and road accidents combined.
+
 This project proposes the hardware design and the firmware of various low-cost and repairable airquality stations for citizens.
 Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
 The firmware is based on [RIOT OS](https://riot-os.org/).
 The IAQ sensors are listed [here](./sensors.md)
 
 [Github repositories](https://github.com/airqualitystation)
+
+## Version 2026 (WIP)
+
+The goal of the project is to develop the 2026 version of the “Air Quality Station,” which will transmit environmental measurements via the [Meshtastic LoRa mesh network](https://meshtastic.org/). Several environmental sensors are already [supported by the Meshtastic firmware](https://github.com/meshtastic/protobufs/blob/master/meshtastic/telemetry.proto).
+
+- **Fine particulate matter sensor PMS7003**
+- **CO₂ sensor**
+- **Grove Multichannel Gas Sensor v2** (CO, NO₂, C₂H₅CH, VOC)
+- **Ambient light sensor VEML7700**
+- **Digital temperature and humidity sensor SHT31**
+- **High-precision temperature sensor MAX30205MTA / MAX30205**
+- **MAX31865 temperature sensor GY-MAX31865 for PT100–PT1000 probes**
+- and more
+
+Microcontrollers will be Wio E5, Microbit (nRF52) and ESP32S3
 
 ## Version 2024 (WIP)
 
