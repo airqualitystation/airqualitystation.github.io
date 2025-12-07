@@ -6,8 +6,9 @@ Credit: [@villeofficiel](https://twitter.com/villeofficiel/status/14620698314449
 Air quality remains a global concern despite local improvements. Air pollution is one of the greatest health risks, affecting almost every organ in the body. The impacts are particularly severe for children, the elderly, and populations exposed over long periods. It is responsible for approximately 7 million premature deaths per year worldwide (WHO). This is more than malaria, HIV, and road accidents combined.
 
 This project proposes the hardware design and the firmware of various low-cost and repairable airquality stations for citizens.
-Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard ([cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
-The firmware is based on [RIOT OS](https://riot-os.org/).
+Air quality measurements are transmitted over a private or public LoRaWAN network ([Helium](https://explorer.helium.com/), [TTN](https://www.thethingsnetwork.org/) or self-hosted Chirpstack), Mesh LoRa networks ([Meshtastic](https://meshtastic.org/), [Meshcore](https://meshcore.co.uk/)) and displayed as open data ([luftdaten](https://luftdaten.info/), [opensensemap](https://opensensemap.org/)) or in private dashboard (Grafana, [cayenne](https://accounts.mydevices.com), [thingsboard.io](https://thingsboard.io/)).
+The firmware is based on [RIOT OS](https://riot-os.org/), Platform.io, Arduino, Zephyr OS, Eclipse ThreadX ...
+
 The IAQ sensors are listed [here](./sensors.md)
 
 [Github repositories](https://github.com/airqualitystation)
@@ -16,16 +17,17 @@ The IAQ sensors are listed [here](./sensors.md)
 
 The goal of the project is to develop the 2026 version of the “Air Quality Station,” which will transmit environmental measurements via the [Meshtastic LoRa mesh network](https://meshtastic.org/). Several environmental sensors are already [supported by the Meshtastic firmware](https://github.com/meshtastic/protobufs/blob/master/meshtastic/telemetry.proto).
 
-- **Fine particulate matter sensor PMS7003**
+- **Fine particulate matter sensor [Plantower PMS7003](https://plantower.com/en/products_33/76.html)**
+- **Fine particulate matter sensor [Sensirion SEN5X](https://developer.sensirion.com/product-support/sen5x-environmental-sensor-node)**
 - **CO₂ sensor**
 - **Grove Multichannel Gas Sensor v2** (CO, NO₂, C₂H₅CH, VOC)
-- **Ambient light sensor VEML7700**
-- **Digital temperature and humidity sensor SHT31**
-- **High-precision temperature sensor MAX30205MTA / MAX30205**
-- **MAX31865 temperature sensor GY-MAX31865 for PT100–PT1000 probes**
+- **Ambient light sensor [Vishay VEML7700](https://www.vishay.com/docs/84286/veml7700.pdf)**
+- **Digital temperature and humidity sensor [Sensirion SHT31](https://sensirion.com/products/catalog/SHT31-DIS-B)**
+- **High-precision temperature sensor [Maxim MAX30205MTA / MAX30205](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30205.pdf)**
+- **Temperature sensor [MAX31865](https://www.analog.com/media/en/technical-documentation/data-sheets/max31865.pdf) for PT100–PT1000 probes**
 - and more
 
-Microcontrollers will be Wio E5, Microbit (nRF52) and ESP32S3
+Microcontrollers will be Wio E5, Microbit (nRF52), XIAO ESP32S3 and Sensecap Solar P1 Pro.
 
 ## Version 2024 (WIP)
 
