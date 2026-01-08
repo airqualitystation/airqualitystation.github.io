@@ -18,7 +18,7 @@ The IAQ sensors are listed [here](./sensors.md)
 The goal of the project is to develop the 2026 version of the “Air Quality Station,” which will transmit environmental measurements via the [Meshtastic LoRa mesh network](https://meshtastic.org/). Several environmental sensors are already [supported by the Meshtastic firmware](https://github.com/meshtastic/protobufs/blob/master/meshtastic/telemetry.proto).
 
 - **Fine particulate matter sensor [Plantower PMS7003](https://plantower.com/en/products_33/76.html)**
-- **Fine particulate matter sensor [Sensirion SEN5X](https://developer.sensirion.com/product-support/sen5x-environmental-sensor-node)**
+- **Fine particulate matter sensor [Sensirion SEN54 and SEN55](https://developer.sensirion.com/product-support/sen5x-environmental-sensor-node)** (NOx, VOC, particulate matter, humidity, and temperature)
 - **CO₂ sensor**
 - **Grove Multichannel Gas Sensor v2** (CO, NO₂, C₂H₅CH, VOC)
 - **Ambient light sensor [Vishay VEML7700](https://www.vishay.com/docs/84286/veml7700.pdf)**
