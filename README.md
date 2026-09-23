@@ -27,7 +27,7 @@ The goal of the project is to develop the 2026 version of the “Air Quality Sta
 - **Temperature sensor [MAX31865](https://www.analog.com/media/en/technical-documentation/data-sheets/max31865.pdf) for PT100–PT1000 probes**
 - and more
 
-Microcontrollers will be Wio E5, Microbit (nRF52), XIAO ESP32S3 and Sensecap Solar P1 Pro.
+Microcontrollers will be Wio S3, Wio E5, Microbit (nRF52) and Sensecap Solar P1 Pro (I2C only).
 
 ## Version 2024 (WIP)
 
